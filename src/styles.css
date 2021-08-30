@@ -1,0 +1,15 @@
+/* Add application styles & imports to this file! */
+@media print {
+  :not(.print) {
+    visibility: hidden;
+  }
+  .print {
+    visibility: visible
+  }
+}
+
+@media screen {
+  .print {
+    visibility: hidden
+  }
+}
